@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>elementFromPoint example</title>
+
+<script>
+function changeColor(newColor) {
+  elem = document.elementFromPoint(1, 0);
+  elem.style.color = newColor;
+}
+</script>
+</head>
+
+<body>
+<h1>Some text here</h1>
+<h2> another text..</h2>
+<button onclick="changeColor('blue');">blue</button>
+<button onclick="changeColor('red');">red</button>
+<p> The elementFromPoint() method of the Document interface returns the topmost element at the specified coordinates.</p>
+</body>
+</html>
